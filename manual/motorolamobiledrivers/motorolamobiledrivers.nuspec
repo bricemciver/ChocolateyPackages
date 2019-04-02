@@ -4,13 +4,13 @@
   <metadata>
     <id>motorola-mobile-drivers</id>
     <version>2.0.2.0</version>
-    <packageSourceUrl>https://github.com/bricemciver/ChocolateyPackages/tree/master/motorola-mobility-drivers</packageSourceUrl>-->
+    <packageSourceUrl>https://github.com/bricemciver/ChocolateyPackages/tree/master/motorola-mobility-drivers</packageSourceUrl>
     <owners>bricemciver</owners>
     <title>Motorola® Mobile Drivers for Windows®</title>
     <authors>Motorola Mobility LLC</authors>
     <projectUrl>https://support.motorola.com/us/en/solution/MS88481</projectUrl>
     <iconUrl>https://support.motorola.com/mse/images/favicon.ico</iconUrl>
-    <copyright>© 2019 Motorola Mobility LLC</copyright> -->
+    <copyright>© 2019 Motorola Mobility LLC</copyright>
     <licenseUrl>https://www.motorola.com/us/legal/terms-of-use</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>motorola mobile driver drivers</tags>
