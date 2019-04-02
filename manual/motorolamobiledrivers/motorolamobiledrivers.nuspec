@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>motorola-mobile-drivers</id>
+    <version>2.0.2.0</version>
+    <packageSourceUrl>https://github.com/bricemciver/ChocolateyPackages/tree/master/motorola-mobility-drivers</packageSourceUrl>-->
+    <owners>bricemciver</owners>
+    <title>Motorola® Mobile Drivers for Windows®</title>
+    <authors>Motorola Mobility LLC</authors>
+    <projectUrl>https://support.motorola.com/us/en/solution/MS88481</projectUrl>
+    <iconUrl>https://support.motorola.com/mse/images/favicon.ico</iconUrl>
+    <copyright>© 2019 Motorola Mobility LLC</copyright> -->
+    <licenseUrl>https://www.motorola.com/us/legal/terms-of-use</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>motorola mobile driver drivers</tags>
+    <summary>Motorola® Mobile Drivers for Windows®</summary>
+    <description>Motorola Mobile Drivers contains USB drivers to connect your Motorola phone or tablet to your computer using a USB cable.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
