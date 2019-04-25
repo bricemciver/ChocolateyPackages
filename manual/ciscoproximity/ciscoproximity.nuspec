@@ -16,13 +16,20 @@
     <tags>cisco-proximity cisco proximity</tags>
     <summary>Cisco Proximity</summary>
     <description>Cisco Proximity allows you to control your video system, interact with shared content and share wirelessly.</description>
-    <releaseNotes>##Version 3.0.2
-###Changes
+    <releaseNotes># Version 3.0.2
+
+================
+
+## Changes
+
 * Added confirmation dialog for ending calls.
 * Minor improvements to UI in some error situations.
-###Bugfixes
+
+## Bugfixes
+
 * Stop showing call controls in all cases where call controls are unavailable.
-* Handle disabled and unsupported systems correctly.</releaseNotes>
+* Handle disabled and unsupported systems correctly.
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
