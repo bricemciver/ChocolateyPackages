@@ -2,14 +2,14 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>ciscoproximity</id>
+    <id>cisco-proximity</id>
     <version>3.0.2</version>
-    <packageSourceUrl>https://github.com/bricemciver/ChocolateyPackages/tree/master/manual/ciscoproximity</packageSourceUrl>
+    <packageSourceUrl>https://github.com/bricemciver/ChocolateyPackages/tree/master/manual/cisco-proximity</packageSourceUrl>
     <owners>Brice McIver</owners>
     <title>Cisco Proximity</title>
     <authors>Cisco</authors>
     <projectUrl>https://proximity.cisco.com/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/bricemciver/ChocolateyPackages/master/icons/ciscoproximity.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/bricemciver/ChocolateyPackages/master/icons/cisco-proximity.png</iconUrl>
     <copyright>2019 Cisco</copyright>
     <licenseUrl>https://www.cisco.com/c/en/us/about/legal/cloud-and-software/end_user_license_agreement.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

@@ -3,7 +3,7 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'https://proximity.cisco.com/windows/Proximity.msi'
 
 $packageArgs = @{
-  packageName   = 'ciscoproximity'
+  packageName   = 'cisco-proximity'
   unzipLocation = $toolsDir
   fileType      = 'MSI'
   url           = $url
