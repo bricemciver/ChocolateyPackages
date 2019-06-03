@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>cisco-proximity</id>
-    <version>3.0.2</version>
+    <version>3.0.3</version>
     <packageSourceUrl>https://github.com/bricemciver/ChocolateyPackages/tree/master/manual/cisco-proximity</packageSourceUrl>
     <owners>Brice McIver</owners>
     <title>Cisco Proximity</title>
@@ -16,7 +16,22 @@
     <tags>cisco-proximity cisco proximity</tags>
     <summary>Cisco Proximity</summary>
     <description>Cisco Proximity allows you to control your video system, interact with shared content and share wirelessly.</description>
-    <releaseNotes># Version 3.0.2
+    <releaseNotes># Version 3.0.3
+
+================
+      
+## Changes
+
+* Make code aware of microphone privacy settings in MacOS.
+
+## Bugfixes
+
+* Fix errors where network issues could result in corrupt downloads.
+* Improve validation of downloaded upgrades on MacOS to ensure upgrades are not left half-finished.
+
+================
+
+# Version 3.0.2
 
 ================
 
