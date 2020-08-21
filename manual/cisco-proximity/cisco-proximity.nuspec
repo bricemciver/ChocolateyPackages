@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>cisco-proximity</id>
-    <version>3.0.6</version>
+    <version>3.0.8</version>
     <packageSourceUrl>https://github.com/bricemciver/ChocolateyPackages/tree/master/manual/cisco-proximity</packageSourceUrl>
     <owners>Brice McIver</owners>
     <title>Cisco Proximity</title>
@@ -16,7 +16,32 @@
     <tags>cisco-proximity cisco proximity</tags>
     <summary>Cisco Proximity</summary>
     <description>Cisco Proximity allows you to control your video system, interact with shared content and share wirelessly.</description>
-    <releaseNotes># Version 3.0.6
+    <releaseNotes># Version 3.0.8
+
+================
+
+## Bugfixes
+
+* Handle screen changes (screen added/remove/resized) better.
+* Make correct error message appears in certain error scenarios.
+* Try to ensure that app is always re-launched correctly on MacOS.
+
+================
+
+# Version 3.0.7
+
+================
+
+## Changes
+
+* Take steps to reduce likelyhood of incorrectly decoding pairing messages in random noise
+* Add option to disallow connections to public IP addresses
+* Show volume button as muted when volume is set to zero
+* For more details, see [the release notes](https://community.cisco.com/t5/mobile-applications-documents/proximity-3-0-7-release-notes/ta-p/4030791) on our support forums.
+
+================
+
+# Version 3.0.6
 
 ================
 
@@ -54,37 +79,6 @@
 
 * Fix cursor scaling and positioning on MacOS.
 * Minor bugfixes.
-
-================
-
-# Version 3.0.3
-
-================
-      
-## Changes
-
-* Make code aware of microphone privacy settings in MacOS.
-
-## Bugfixes
-
-* Fix errors where network issues could result in corrupt downloads.
-* Improve validation of downloaded upgrades on MacOS to ensure upgrades are not left half-finished.
-
-================
-
-# Version 3.0.2
-
-================
-
-## Changes
-
-* Added confirmation dialog for ending calls.
-* Minor improvements to UI in some error situations.
-
-## Bugfixes
-
-* Stop showing call controls in all cases where call controls are unavailable.
-* Handle disabled and unsupported systems correctly.
     </releaseNotes>
   </metadata>
   <files>
