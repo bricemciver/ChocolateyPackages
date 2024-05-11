@@ -3,20 +3,56 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>cisco-proximity</id>
-    <version>3.0.8</version>
+    <version>4.0.0</version>
     <packageSourceUrl>https://github.com/bricemciver/ChocolateyPackages/tree/master/manual/cisco-proximity</packageSourceUrl>
     <owners>Brice McIver</owners>
     <title>Cisco Proximity</title>
     <authors>Cisco</authors>
     <projectUrl>https://proximity.cisco.com/</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/bricemciver/ChocolateyPackages/master/icons/cisco-proximity.png</iconUrl>
-    <copyright>2019 Cisco</copyright>
+    <copyright>2024 Cisco</copyright>
     <licenseUrl>https://www.cisco.com/c/en/us/about/legal/cloud-and-software/end_user_license_agreement.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>cisco-proximity cisco proximity</tags>
     <summary>Cisco Proximity</summary>
     <description>Cisco Proximity allows you to control your video system, interact with shared content and share wirelessly.</description>
-    <releaseNotes># Version 3.0.8
+    <releaseNotes># Version 4.0.0
+
+================
+
+## New Features
+
+* Support connecting to Webex cloud registered systems.
+
+## Changes
+
+* Improve ultrasonic pairing performance and resilience.
+* Minor updates to UI.
+
+## Bugfixes
+
+* Fix crashes occuring on certain systems, as reported by user marcis.U.
+* Prevent reconnection issues in certain scenarios where there are multiple devices in the same room.
+
+================
+
+# Version 3.1.0
+
+================
+
+## Changes
+
+* Added host fingerprint verification. See this help page on fingerprint matching for more information.
+* Updates to external dependencies.
+* Remove hardcoded lookup path from Qt5Core.dll to fix CVE-2021-1240.
+
+## Bugfixes
+
+* Fixed possible crash on application exit.
+
+================
+
+# Version 3.0.8
 
 ================
 

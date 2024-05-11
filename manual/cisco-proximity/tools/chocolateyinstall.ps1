@@ -10,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'proximity*'
 
-  checksum      = 'b37c5a98053fb10543faf01f0cdd7ba493fbdba6b39d050a454058c0444145a5'
+  checksum      = '725942439B2299FA348E60D7CED9B6E9F103EE1AD515B8F64089C6EBA3FC4F0C'
   checksumType  = 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`" ACCEPTEULA=1"
